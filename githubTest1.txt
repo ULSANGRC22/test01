@@ -1,3 +1,60 @@
 이렇게 했는데도 공짜아이디 못쓰면 진짜 진짜임
 
 머리가 아픈거 아니면 남들도 쓰게 나쁜짓 하지 말자
+
+일단
+
+깃허브 가입은 생략해도 됩니다
+깃배쉬만 깔고
+git config --global user.name ULSANGRC22
+git config --global user.email ULSANGRC22@gmail.com
+
+git config --list
+로 맨아래에 유저네임 이메일이 등록 되어있는 것을 확인 해주십시오
+
+git init
+으로 초기화를 해 주십시오
+
+처음에는 브랜치가 master로 되어 있을수 있습니다.
+그렇다면
+git branch -m master 변경할브랜치명
+으로 브랜치명을 변경해주시고
+
+이후
+git status
+로 폴더를 한번 확인 해준다음
+
+올릴 파일이 있다면
+git add .
+이 때 .은 add바로 다음이아니라 스페이스바로 공백을 하나 주셔야합니다.
+
+그리고
+git commit -m "적고싶은 말"
+로 커밋을 해주시면 파일이 등록되며
+
+git remote add origin 레파지토리/프로젝트주소 를 작성해주시면됩니다.
+해당 레파지토리/프로젝트주소는 깃허브에서 만든다음 프로젝트나/레파지토리 명을 클릭하면 바로 주소를 안내줍니다.
+
+git push origin 레파지토리명/프로젝트명
+이라고 작성해주시면 파일이 깃허브 레파지토리/프로젝트에 등록됩니다.
+
+기본적으로 파일을 넣는 법은 알려드렸으니 나머지는 구글에 물어봅시다.
+
+git config --global user.name ULSANGRC22
+git config --global user.email ULSANGRC22@gmail.com
+
+git config --list//생략 가능
+
+git init
+
+git branch -m master 변경할브랜치명
+
+git status
+
+git add .
+
+git commit -m "적고싶은 말"
+
+git remote add origin 레파지토리/프로젝트주소
+
+git push origin 레파지토리명/프로젝트명
